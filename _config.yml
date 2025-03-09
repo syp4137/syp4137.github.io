@@ -28,7 +28,7 @@ plainwhite:
   condensed_mobile:
     #- home
     - page
-    - post
+    #- post
   # generate social links in footer
   social_links:
     #twitter: samarsault
