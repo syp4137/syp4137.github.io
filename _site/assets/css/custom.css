@@ -1,0 +1,5 @@
+@import "plain";
+
+.blue-text, .blue-text a {
+    color: #1cbbc9 !important;
+}
