@@ -12,8 +12,6 @@ title: "👋 Hi, I'm Suho Kang!"
 
 #### I am broadly interested in generative models and reliable AI, particularly addressing open-world challenges to ensure trustworthy model responses. My research involves adapting and deploying foundation models, such as LLMs and VLMs, in practical scenarios by rigorously evaluating their capabilities, understanding their limitations, and enhancing their robustness. Additionally, I explore reasoning and interpretability methods to better understand model behavior and further improve their performance.
 
-<br><br>
-
 ## 🔭 Publication  
   * **Benchmarking Foundation Models on Exceptional Cases: Dataset Creation and Validation**  
   **Suho Kang**, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song  
