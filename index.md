@@ -16,7 +16,7 @@ title: "👋 Hi, I'm Suho Kang!"
 
   * **RPLKG: Robust Prompt Learning with Knowledge Graph**  
   Yongtaek Lim∗, Yewon Kim∗, **Suho Kang**, Dokyung Yoon, Kyungwoo Song  
-  arXiv preprint [📄 Paper](https://arxiv.org/html/2304.10805v2)(*: Equal contribution) 
+  arXiv preprint [📄 Paper](https://arxiv.org/html/2304.10805v2) (*: Equal contribution) 
 
   * **Benchmarking Foundation Models on Exceptional Cases: Dataset Creation and Validation**  
   **Suho Kang**, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song  
