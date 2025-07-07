@@ -6,13 +6,18 @@ title: "👋 Hi, I'm Suho Kang!"
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 
-#### I am an Evaluation & Analysis Engineer at the Semiconductor R&D Center of <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>.
+###### I am an Evaluation & Analysis Engineer at the Semiconductor R&D Center of <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>.
 
-#### In addition to my industry role, I serve as a part-time visiting researcher at the <span class="blue-text"><a href="https://mirlab.yonsei.ac.kr/">MIR Lab</a></span> at Yonsei University, supervised by Prof. <span class="blue-text"><a href="https://yj-yu.github.io/home/">Youngjae Yu</a></span>. Previously, I worked as a part-time research assistant at the <span class="blue-text"><a href="https://mlai.yonsei.ac.kr/home">MLAI Lab</a></span>, where I expanded my research expertise under the guidance of Prof. <span class="blue-text"><a href="https://scholar.google.com/citations?hl=ko&user=HWxRii4AAAAJ&view_op=list_works&sortby=pubdate">Kyungwoo Song</a></span>. I also earned my M.Eng. in Artificial Intelligence from <span class="blue-text"><a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a></span> as a part-time student while working full-time as an engineer at Samsung Electronics.  
+###### In addition to my industry role, I serve as a part-time visiting researcher at the <span class="blue-text"><a href="https://mirlab.yonsei.ac.kr/">MIR Lab</a></span> at Yonsei University, supervised by Prof. <span class="blue-text"><a href="https://yj-yu.github.io/home/">Youngjae Yu</a></span>. Previously, I worked as a part-time research assistant at the <span class="blue-text"><a href="https://mlai.yonsei.ac.kr/home">MLAI Lab</a></span>, where I expanded my research expertise under the guidance of Prof. <span class="blue-text"><a href="https://scholar.google.com/citations?hl=ko&user=HWxRii4AAAAJ&view_op=list_works&sortby=pubdate">Kyungwoo Song</a></span>. I also earned my M.Eng. in Artificial Intelligence from <span class="blue-text"><a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a></span> as a part-time student while working full-time as an engineer at Samsung Electronics.  
 
-#### I am broadly interested in generative models and reliable AI, particularly addressing open-world challenges to ensure trustworthy model responses. My research centers on adapting and deploying models, such as LLMs and VLMs, in practical scenarios by rigorously evaluating their capabilities, understanding their limitations, and enhancing their robustness. Additionally, I explore reasoning and interpretability methods to better understand model behavior and further improve their performance.
+###### I am broadly interested in generative models and reliable AI, particularly addressing open-world challenges to ensure trustworthy model responses. My research centers on adapting and deploying models, such as LLMs and VLMs, in practical scenarios by rigorously evaluating their capabilities, understanding their limitations, and enhancing their robustness. Additionally, I explore reasoning and interpretability methods to better understand model behavior and further improve their performance.
 
 ## 🔭 Publication  
+
+  * **RPLKG: Robust Prompt Learning with Knowledge Graph**  
+  Yongtaek Lim∗, Yewon Kim∗, **Suho Kang**, Dokyung Yoon, Kyungwoo Song  
+  arXiv preprint [📄 Paper](https://arxiv.org/html/2304.10805v2) 
+
   * **Benchmarking Foundation Models on Exceptional Cases: Dataset Creation and Validation**  
   **Suho Kang**, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song  
   EMNLP 2024 Workshop: GenBench [📄 Paper](https://arxiv.org/abs/2410.18001)  
