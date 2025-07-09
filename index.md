@@ -10,7 +10,9 @@ title: "👋 Hi, I'm Suho Kang!"
 
 ##### In addition to my industry role, I serve as a part-time visiting researcher at the <span class="blue-text"><a href="https://mirlab.yonsei.ac.kr/">MIR Lab</a></span> at Yonsei University, supervised by Prof. <span class="blue-text"><a href="https://yj-yu.github.io/home/">Youngjae Yu</a></span>. Previously, I worked as a part-time research assistant at the <span class="blue-text"><a href="https://mlai.yonsei.ac.kr/home">MLAI Lab</a></span>, where I expanded my research expertise under the guidance of Prof. <span class="blue-text"><a href="https://scholar.google.com/citations?hl=ko&user=HWxRii4AAAAJ&view_op=list_works&sortby=pubdate">Kyungwoo Song</a></span>. I also earned my M.Eng. in Artificial Intelligence from <span class="blue-text"><a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a></span> as a part-time student while working full-time as an engineer at Samsung Electronics.  
 
-##### I am broadly interested in generative models and reliable AI, particularly addressing open-world challenges to ensure trustworthy model responses. My research centers on adapting and deploying models, such as LLMs and VLMs, in practical scenarios by rigorously evaluating their capabilities, understanding their limitations, and enhancing their robustness. Additionally, I explore reasoning and interpretability methods to better understand model behavior and further improve their performance.
+##### My research interests lie in generative models and reliable AI, focusing on adapting LLMs and VLMs to open-world challenges through rigorous evaluation, reasoning, and interpretability methods to enhance model robustness and trustworthiness.
+
+##### Recently, my research has focused on enabling reliable human–LLM interaction in educational settings, developing robust reasoning methods, and exploring knowledge distillation techniques to improve model efficiency and generalization.
 
 ## 🔭 Publication  
 
