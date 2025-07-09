@@ -1,14 +1,14 @@
 ---
 layout: home
-title: "👋 Hi, I'm Suho Kang!"
+title: "Suho Kang"
 ---
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 
-##### I am an Evaluation & Analysis Engineer at the Semiconductor R&D Center of <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>.
+##### I am an Evaluation & Analysis Engineer at the Semiconductor R&D Center of <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>. Concurrently, I serve as a part-time visiting researcher at the <span class="blue-text"><a href="https://mirlab.yonsei.ac.kr/">MIR Lab</a></span> at Yonsei University, where I am supervised by Prof. <span class="blue-text"><a href="https://yj-yu.github.io/home/">Youngjae Yu</a></span>.
 
-##### In addition to my industry role, I serve as a part-time visiting researcher at the <span class="blue-text"><a href="https://mirlab.yonsei.ac.kr/">MIR Lab</a></span> at Yonsei University, supervised by Prof. <span class="blue-text"><a href="https://yj-yu.github.io/home/">Youngjae Yu</a></span>. Previously, I worked as a part-time research assistant at the <span class="blue-text"><a href="https://mlai.yonsei.ac.kr/home">MLAI Lab</a></span>, where I expanded my research expertise under the guidance of Prof. <span class="blue-text"><a href="https://scholar.google.com/citations?hl=ko&user=HWxRii4AAAAJ&view_op=list_works&sortby=pubdate">Kyungwoo Song</a></span>. I also earned my M.Eng. in Artificial Intelligence from <span class="blue-text"><a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a></span> as a part-time student while working full-time as an engineer at Samsung Electronics.  
+##### My prior experience includes working as a part-time research assistant at the <span class="blue-text"><a href="https://mlai.yonsei.ac.kr/home">MLAI Lab</a></span> under the guidance of of Prof. <span class="blue-text"><a href="https://scholar.google.com/citations?hl=ko&user=HWxRii4AAAAJ&view_op=list_works&sortby=pubdate">Kyungwoo Song</a></span>, which significantly expanded my research expertise. I also earned my M.Eng. in Artificial Intelligence from <span class="blue-text"><a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a></span> as a part-time student while working full-time at Samsung Electronics.  
 
 ##### My research interests lie in generative models and reliable AI, focusing on adapting LLMs and VLMs to open-world challenges through rigorous evaluation, reasoning, and interpretability methods to enhance model robustness and trustworthiness.
 
