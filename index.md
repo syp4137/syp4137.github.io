@@ -12,7 +12,7 @@ title: "👋 Hi, I'm Suho Kang!"
 
 ##### My research interests lie in generative models and reliable AI, focusing on adapting LLMs and VLMs to open-world challenges through rigorous evaluation, reasoning, and interpretability methods to enhance model robustness and trustworthiness.
 
-##### Recently, my research has focused on enabling reliable human–LLM interaction in educational settings, developing robust reasoning methods, and exploring knowledge distillation techniques to improve model efficiency and generalization.
+##### Recently, my research has focused on enabling reliable human-LLM interaction in educational settings, developing robust reasoning methods, and exploring knowledge distillation techniques to enhance model reliability.
 
 ## 🔭 Publication  
 
