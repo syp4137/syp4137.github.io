@@ -1,0 +1,16 @@
+<ul class="social about-footer">
+  {% assign social = site.plainwhite.social_links %}
+
+  {% if social.github %}
+    <li><a href="https://github.com/{{ social.github }}" target="_blank"><i class="fab fa-github"></i></a></li>
+  {% endif %}
+  {% if social.linkedIn %}
+    <li><a href="https://www.linkedin.com/{{ social.linkedIn }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+  {% endif %}
+  {% if social.email %}
+    <li><a href="mailto:{{ social.email }}"><i class="fas fa-envelope"></i></a></li>
+  {% endif %}
+  {% if social.google_scholar %}
+    <li><a href="https://{{ social.google_scholar }}" target="_blank"><i class="fas fa-graduation-cap"></i></a></li>
+  {% endif %}
+</ul>
