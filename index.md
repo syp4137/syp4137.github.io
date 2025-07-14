@@ -10,7 +10,7 @@ title: "Suho Kang"
 
 ##### My prior experience includes working as a part-time research assistant at the <span class="blue-text"><a href="https://mlai.yonsei.ac.kr/home">MLAI Lab</a></span> under the guidance of of Prof. <span class="blue-text"><a href="https://scholar.google.com/citations?hl=ko&user=HWxRii4AAAAJ&view_op=list_works&sortby=pubdate">Kyungwoo Song</a></span>, which significantly expanded my research expertise. I also earned my M.Eng. in Artificial Intelligence from <span class="blue-text"><a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a></span> as a part-time student while working full-time at Samsung Electronics.  
 
-##### My research interests lie in generative models and reliable AI, focusing on adapting LLMs and VLMs to open-world challenges through rigorous evaluation, reasoning, and interpretability methods to enhance model robustness and trustworthiness. Recently, my research has focused on enabling reliable human-LLM interaction in educational settings, developing robust reasoning methods, and exploring knowledge distillation techniques to enhance model reliability.
+##### My research interests lie in generative models and reliable AI, focusing on adapting LLMs and VLMs to open-world challenges through rigorous evaluation, reasoning, and interpretability methods to enhance model robustness and trustworthiness. Recently, my research has focused on enabling reliable human-LLM interaction in educational settings and developing techniques for building small yet reliable models.
 
 ## 🔭 Publication  
 
