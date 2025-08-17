@@ -1,4 +1,4 @@
-title: "Suho Kang"
+title: "Soyeon Park"
 description: "Welcome to my website!"
 #theme: jekyll-theme-minimal
 author: GitHub User
@@ -17,7 +17,7 @@ sass:
 include:
   - assets/css
 plainwhite:
-  name: Suho Kang
+  name: Soyeon Park
   #tagline: Evaluation & Analysis Engineer at the Semiconductor R&D Center of Samsung Electronics
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
@@ -33,9 +33,9 @@ plainwhite:
   social_links:
     #twitter: samarsault
     #github:  samarsault
-    email: suhokang@yonsei.ac.kr
-    linkedIn: in/suho-kang
-    google_scholar: scholar.google.com/citations?user=_Lt-FUoAAAAJ&hl=ko
+    email: sopark2027@u.northwestern.edu
+    linkedIn: in/so-park
+    #google_scholar: scholar.google.com/citations?user=_Lt-FUoAAAAJ&hl=ko
     #dribbble: jekyll
     #flickr:   jekyll
     #instagram: jekyll
