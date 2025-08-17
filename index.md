@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Suho Kang"
+title: "Soyeon Park"
 ---
 
 <link rel="stylesheet" href="/assets/css/custom.css">
