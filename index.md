@@ -29,7 +29,7 @@ title: "Soyeon Park"
 </div>
 
 
-<h2 style="margin-top: 50px;"> ## 🔭 Projects</h2>
+<h2 style="margin-top: 50px;">🔭 Projects</h2>
 
   * **Equipment Demand Forecasting**  
   : Using Statistical and Machine Learning Models for VNAND Analysis Planning
