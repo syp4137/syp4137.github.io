@@ -13,7 +13,7 @@ title: "Soyeon Park"
 
 ## 🎓 Education
   <div style="display: flex; align-items: center; gap: 15px;">
-  <img src="/assets/images/nu_logo.jpg" alt="NU Logo" width="200px">
+  <img src="/assets/images/nu_logo.png" alt="NU Logo" width="200px">
   <div>
     <p style="margin: 0; font-weight: bold;">M.S. in Statistics and Data Science (2025 – Present)</p>
     <p style="margin: 0;">Northwestern University, Evanston, IL</p>
@@ -21,7 +21,7 @@ title: "Soyeon Park"
 </div>
 
   <div style="display: flex; align-items: center; gap: 15px;">
-  <img src="/assets/images/nu_logo.jpg" alt="NU Logo" width="200px">
+  <img src="/assets/images/hu_logo.png" alt="NU Logo" width="200px">
   <div>
     <p style="margin: 0; font-weight: bold;">B.S. in Nano and Organic Engineering (2012 – 2016)</p>
     <p style="margin: 0;">Hanyang University, Seoul, Republic of Korea</p>
