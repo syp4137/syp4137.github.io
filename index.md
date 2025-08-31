@@ -5,14 +5,14 @@ title: "Soyeon Park"
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-
-##### A graduate student at <span class="blue-text"><a href="https://statistics.northwestern.edu/">Northwestern University</a></span>, pursuing a M.S. in Statistics and Data Science.
+## About me!
+##### Hi all👋🏻 I'm Soyeon Park, and I'm a graduate student at <span class="blue-text"><a href="https://statistics.northwestern.edu/">Northwestern University</a></span>, pursuing a M.S. in Statistics and Data Science.
 
 ##### Previously a Staff Engineer in Evaluation & Analysis Team at <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>, specializing in predictive modeling, automation, and machine learning applications in semiconductor manufacturing.
 
 ##### Passionate about applying statistics and data science to solve real-world problems and bridge the gap between advanced technology and practical decision-making.
 
-## 🔭 Project
+## 🔭 Projects
 
   * **Equipment Demand Forecasting**  
   : Using Statistical and Machine Learning Models for VNAND Analysis Planning
