@@ -12,8 +12,13 @@ title: "Soyeon Park"
 
 
 ## 🎓 Education
-  <span style="vertical-align:middle;"><img src="/assets/images/nu_logo.jpg" alt="NU Logo" width="200px"></span> M.S. in Statistics and Data Science (2025 – Present)
-    Northwestern University, Evanston, IL
+  <div style="display: flex; align-items: center; gap: 15px;">
+  <img src="/assets/images/nu_logo.jpg" alt="NU Logo" width="80px">
+  <div>
+    <p style="margin: 0; font-weight: bold;">M.S. in Statistics and Data Science (2025 – Present)</p>
+    <p style="margin: 0;">Northwestern University, Evanston, IL</p>
+  </div>
+</div>
 
   B.S. in Nano and Organic Engineering (2012 – 2016)
     Hanyang University, Seoul, Republic of Korea
