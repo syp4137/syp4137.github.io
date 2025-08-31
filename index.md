@@ -11,8 +11,6 @@ title: "Soyeon Park"
 
 
 
-
-
 ## 🎓 Education
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/assets/images/nu_logo.png" alt="NU Logo" width="60px">
@@ -31,10 +29,7 @@ title: "Soyeon Park"
 </div>
 
 
-
-
-<h2 style="margin-top: 50px;">
-## 🔭 Projects
+<h2 style="margin-top: 50px;"> ## 🔭 Projects
 
   * **Equipment Demand Forecasting**  
   : Using Statistical and Machine Learning Models for VNAND Analysis Planning
