@@ -7,11 +7,11 @@ title: "Soyeon Park"
 
 ##### Hi all 👋 I'm Soyeon Park, and I'm a graduate student at Northwestern University, pursuing a M.S. in Statistics and Data Science.
 ##### Previously I was a Staff Engineer in Evaluation & Analysis Team at <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>, specializing in predictive modeling, automation, and machine learning applications in semiconductor manufacturing.
-##### Passionate about applying statistics and data science to solve real-world problems and bridge the gap between advanced technology and practical decision-making.
+##### I'm passionate about applying statistics and data science to solve real-world problems and bridge the gap between advanced technology and practical decision-making.
 
 
 
-## 🎓 Education
+<h2 style="margin-top: 50px;">🎓 Education</h2>
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/assets/images/nu_logo.png" alt="NU Logo" width="60px">
   <div>
