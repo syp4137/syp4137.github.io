@@ -11,6 +11,8 @@ title: "Soyeon Park"
 
 
 
+
+
 ## 🎓 Education
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/assets/images/nu_logo.png" alt="NU Logo" width="60px">
@@ -28,8 +30,9 @@ title: "Soyeon Park"
   </div>
 </div>
 
-## 
-## 
+
+
+
 
 ## 🔭 Projects
 
