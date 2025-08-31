@@ -33,7 +33,7 @@ title: "Soyeon Park"
 
 
 
-
+<h2 style="margin-top: 50px;">
 ## 🔭 Projects
 
   * **Equipment Demand Forecasting**  
