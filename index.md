@@ -6,17 +6,17 @@ title: "Soyeon Park"
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 
-##### A graduate student at Northwestern University, pursuing a M.S. in Statistics and Data Science. <span class="blue-text"><a href="https://statistics.northwestern.edu/">Northwestern University</a></span> 
+##### A graduate student at <span class="blue-text"><a href="https://statistics.northwestern.edu/">Northwestern University</a></span>, pursuing a M.S. in Statistics and Data Science.
 
-##### Previously a Staff Engineer at Samsung Electronics, specializing in predictive modeling, automation, and machine learning applications in semiconductor manufacturing. <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>.
+##### Previously a Staff Engineer in Evaluation & Analysis Team at <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>, specializing in predictive modeling, automation, and machine learning applications in semiconductor manufacturing.
 
 ##### Passionate about applying statistics and data science to solve real-world problems and bridge the gap between advanced technology and practical decision-making.
 
-## 🔭 Publication  
+## 🔭 Project
 
-  * **RPLKG: Robust Prompt Learning with Knowledge Graph**  
-  Yongtaek Lim∗, Yewon Kim∗, **Suho Kang**, Dokyung Yoon, Kyungwoo Song  
-  arXiv preprint [📄 Paper](https://arxiv.org/html/2304.10805v2) (*: Equal contribution) 
+  * **Equipment Demand Forecasting**  
+  : Using Statistical and Machine Learning Models for VNAND Analysis Planning
+  [📄 Porfolio](https://arxiv.org/html/2304.10805v2)
 
   * **Benchmarking Foundation Models on Exceptional Cases: Dataset Creation and Validation**  
   **Suho Kang**, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song  
