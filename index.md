@@ -32,7 +32,7 @@ title: "Soyeon Park"
 <h2 style="margin-top: 50px;">🔭 Projects</h2>
 
   * **Equipment Demand Forecasting**  
-  : Using Statistical and Machine Learning Models for VNAND Analysis Planning
+  Using Statistical and Machine Learning Models for VNAND Analysis Planning
   [📄 Porfolio](https://arxiv.org/html/2304.10805v2)
 
   * **Prediction Through Transfer Learning for Process Monitoring**  
