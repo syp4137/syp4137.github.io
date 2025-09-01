@@ -23,8 +23,8 @@ title: "Soyeon Park"
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/assets/images/hu_logo.png" alt="HU Logo" width="60px">
   <div>
-    <p style="margin: 0; font-weight: bold;">B.S. in Nano and Organic Engineering (2012 – 2016)</p>
     <p style="margin: 0;">Hanyang University, Seoul, Republic of Korea</p>
+    <p style="margin: 0;">B.S. in Nano and Organic Engineering (2012 – 2016)</p>
   </div>
 </div>
 
