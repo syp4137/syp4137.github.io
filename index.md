@@ -31,7 +31,7 @@ title: "Soyeon Park"
 
 <h2 style="margin-top: 50px;">🛠️ Skills</h2>
 
-  * Programming: Python, R, SQL
+  * Programming : Python, R, SQL
   * Tech Stack : Git, Latex, Jupyther Notebook (Anaconda)
   * Data Visualation : Tableau, Microsoft Excel, Power BI
 
@@ -39,15 +39,15 @@ title: "Soyeon Park"
 
   * **Equipment Demand Forecasting**  
   Using Statistical and Machine Learning Models for VNAND Analysis Planning
-  [📄 Porfolio](https://arxiv.org/html/2304.10805v2)
+  [📄 Porfolio](https://drive.google.com/file/d/1dvx0uKgnR1OW4JLLMxmD1m8JMw8-BPrq/view?usp=sharing)
 
   * **Prediction Through Transfer Learning for Process Monitoring**  
-  Enhancing SEM Analysis Efficiency in VNAND Manufacturing image [📄 Porfolio](https://arxiv.org/html/2304.10805v2)
+  Enhancing SEM Analysis Efficiency in VNAND Manufacturing image [📄 Porfolio](https://drive.google.com/file/d/1nRTy-raEbcSnLeq3pTuW3eSmweshhyPM/view?usp=sharing)
 
     
   * **Automating Scanning Electron Microscopy (SEM) Analysis Process**  
-  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
+  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://drive.google.com/file/d/1sNLWn6mDySspYKlbwZa9EDDR1WNpPLTN/view?usp=sharing)  
   
 
   * **Super Resolution (SR) Project**  
-  Applying Super-Resolution Technology in SEM (Scanning Electron Microscope) image [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
+  Applying Super-Resolution Technology in SEM (Scanning Electron Microscope) image [📄 Porfolio](https://drive.google.com/file/d/1sNLWn6mDySspYKlbwZa9EDDR1WNpPLTN/view?usp=sharing)  
