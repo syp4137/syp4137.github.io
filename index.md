@@ -31,6 +31,9 @@ title: "Soyeon Park"
 
 <h2 style="margin-top: 50px;">🛠️ Skills</h2>
 
+  * Programming: Python, R, SQL
+  * Tech Stack : Git, Latex, Jupyther Notebook (Anaconda)
+  * Data Visualation : Tableau, Microsoft Excel, Power BI
 
 <h2 style="margin-top: 50px;">🗂️ Projects</h2>
 
@@ -39,15 +42,12 @@ title: "Soyeon Park"
   [📄 Porfolio](https://arxiv.org/html/2304.10805v2)
 
   * **Prediction Through Transfer Learning for Process Monitoring**  
-  **Suho Kang**, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song  
-  EMNLP 2024 Workshop: GenBench [📄 Porfolio](https://arxiv.org/abs/2410.18001)  
+  Enhancing SEM Analysis Efficiency in VNAND Manufacturing image [📄 Porfolio](https://arxiv.org/html/2304.10805v2)
 
     
   * **Automating Scanning Electron Microscopy (SEM) Analysis Process**  
-  Chanwoo Kim, Jeyoon Yeom, Joowang Kim, **Suho Kang**, Kyungwoo Song  
-  NeurIPS 2024 Workshop: Adaptive Foundation Models [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
+  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
   
 
   * **Super Resolution (SR) Project**  
-  Chanwoo Kim, Jeyoon Yeom, Joowang Kim, **Suho Kang**, Kyungwoo Song  
-  NeurIPS 2024 Workshop: Adaptive Foundation Models [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
+  Applying Super-Resolution Technology in SEM (Scanning Electron Microscope) image [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
