@@ -29,7 +29,10 @@ title: "Soyeon Park"
 </div>
 
 
-<h2 style="margin-top: 50px;">🔭 Projects</h2>
+<h2 style="margin-top: 50px;">🛠️ Skills</h2>
+
+
+<h2 style="margin-top: 50px;">🗂️ Projects</h2>
 
   * **Equipment Demand Forecasting**  
   Using Statistical and Machine Learning Models for VNAND Analysis Planning
@@ -37,17 +40,14 @@ title: "Soyeon Park"
 
   * **Prediction Through Transfer Learning for Process Monitoring**  
   **Suho Kang**, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song  
-  EMNLP 2024 Workshop: GenBench [📄 Paper](https://arxiv.org/abs/2410.18001)  
-  🏆 Recipient of the <span class="blue-text">.<strong>Amazon Travel Scholarship</strong></span> Sponsored by <span style="vertical-align:middle;">
-  <img src="/assets/images/amazon-official-logo.png" alt="Amazon Logo" width="60px">
-</span>
+  EMNLP 2024 Workshop: GenBench [📄 Porfolio](https://arxiv.org/abs/2410.18001)  
 
     
   * **Automating Scanning Electron Microscopy (SEM) Analysis Process**  
   Chanwoo Kim, Jeyoon Yeom, Joowang Kim, **Suho Kang**, Kyungwoo Song  
-  NeurIPS 2024 Workshop: Adaptive Foundation Models [📄 Paper](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
+  NeurIPS 2024 Workshop: Adaptive Foundation Models [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
   
 
-  * **Super Resolution (SR) Project**
+  * **Super Resolution (SR) Project**  
   Chanwoo Kim, Jeyoon Yeom, Joowang Kim, **Suho Kang**, Kyungwoo Song  
-  NeurIPS 2024 Workshop: Adaptive Foundation Models [📄 Paper](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
+  NeurIPS 2024 Workshop: Adaptive Foundation Models [📄 Porfolio](https://openreview.net/forum?id=Q0tfRYadhc#discussion)  
