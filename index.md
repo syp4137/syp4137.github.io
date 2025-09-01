@@ -15,8 +15,8 @@ title: "Soyeon Park"
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/assets/images/nu_logo.png" alt="NU Logo" width="60px">
   <div>
-    <p style="margin: 0; font-weight: bold;">M.S. in Statistics and Data Science (2025 – Present)</p>
     <p style="margin: 0;">Northwestern University, Evanston, IL</p>
+    <p style="margin: 0;">M.S. in Statistics and Data Science (2025 – Present)</p>
   </div>
 </div>
 
