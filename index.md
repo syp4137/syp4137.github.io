@@ -46,7 +46,7 @@ title: "Soyeon Park"
 
     
   * **Automating Scanning Electron Microscopy (SEM) Analysis Process**  
-  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://drive.google.com/file/d/1sNLWn6mDySspYKlbwZa9EDDR1WNpPLTN/view?usp=sharing)  
+  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://drive.google.com/file/d/1VPQotGbNbQKgnpZeX-VqZohxIlfnPnnt/view?usp=sharing)  
   
 
   * **Super Resolution (SR) Project**  
