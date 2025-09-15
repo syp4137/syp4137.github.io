@@ -29,25 +29,25 @@ title: "Soyeon Park"
 </div>
 
 
-<h2 style="margin-top: 50px;">🛠️ Skills</h2>
+<h2 style="margin-top: 50px;">🛠️ Technical Skills</h2>
 
-  * Programming : Python, R, SQL
-  * Tech Stack : Git, Latex, Jupyther Notebook (Anaconda)
+  * Programming Languages: Python, R, SQL
+  * Tools & Platforms: Git, Jupyter Notebook, Anaconda
   * Data Visualation : Tableau, Microsoft Excel, Power BI
 
 <h2 style="margin-top: 50px;">🗂️ Projects</h2>
 
   * **Equipment Demand Forecasting**  
   Using Statistical and Machine Learning Models for VNAND Analysis Planning
-  [📄 Porfolio](https://drive.google.com/file/d/1dvx0uKgnR1OW4JLLMxmD1m8JMw8-BPrq/view?usp=sharing)
+  [📄 Porfolio](https://drive.google.com/file/d/1KmusA-ub6aBX4SbU26ygYIqi_mJu-sla/view?usp=sharing)
 
   * **Prediction Through Transfer Learning for Process Monitoring**  
-  Enhancing SEM Analysis Efficiency in VNAND Manufacturing image [📄 Porfolio](https://drive.google.com/file/d/1nRTy-raEbcSnLeq3pTuW3eSmweshhyPM/view?usp=sharing)
+  Enhancing SEM Analysis Efficiency in VNAND Manufacturing image [📄 Porfolio](https://drive.google.com/file/d/1zeXgj5EXhzVxGkskYnI1UVq5k8hUnUJV/view?usp=sharing)
 
     
   * **Automating Scanning Electron Microscopy (SEM) Analysis Process**  
-  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://drive.google.com/file/d/1VPQotGbNbQKgnpZeX-VqZohxIlfnPnnt/view?usp=sharing)  
+  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://drive.google.com/file/d/1fidJKHXlybC9053DGx4vRlB05rHqxvgf/view?usp=sharing)
   
 
   * **Super Resolution (SR) Project**  
-  Applying Super-Resolution Technology in SEM (Scanning Electron Microscope) image [📄 Porfolio](https://drive.google.com/file/d/1sNLWn6mDySspYKlbwZa9EDDR1WNpPLTN/view?usp=sharing)  
+  Applying Super-Resolution Technology in SEM (Scanning Electron Microscope) image [📄 Porfolio](https://drive.google.com/file/d/1kH3cLJKjr92LWjBC5U_eqvznFCjT-pgC/view?usp=sharing) 
