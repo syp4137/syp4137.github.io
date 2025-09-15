@@ -15,7 +15,7 @@ title: "Soyeon Park"
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/assets/images/nu_logo.png" alt="NU Logo" width="60px">
   <div>
-    <p style="margin: 0;">Northwestern University, Evanston, IL</p>
+    <p style="margin: 0;"><strong>Northwestern University,</strong> Evanston, IL</p>
     <p style="margin: 0;">M.S. in Statistics and Data Science (2025 – Present)</p>
   </div>
 </div>
@@ -23,7 +23,7 @@ title: "Soyeon Park"
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/assets/images/hu_logo.png" alt="HU Logo" width="60px">
   <div>
-    <p style="margin: 0;">Hanyang University, Seoul, Republic of Korea</p>
+    <p style="margin: 0;"><strong>Hanyang University,</strong> Seoul, Republic of Korea</p>
     <p style="margin: 0;">B.S. in Nano and Organic Engineering (2012 – 2016)</p>
   </div>
 </div>
@@ -31,10 +31,10 @@ title: "Soyeon Park"
 
 <h2 style="margin-top: 50px;">🛠️ Technical Skills</h2>
 
-  * Programming Languages: Python, R, SQL
-  * ML Libraries: Scikit-learn, Pandas, NumPy
-  * Developer Tools: Git, Jupyter Notebook, Anaconda, LaTeX
-  * Data Visualation : Tableau, Power BI, Matplotlib, Seaborn
+  * <strong>Programming Languages:</strong> Python, R, SQL
+  * <strong>ML Libraries:</strong> Scikit-learn, Pandas, NumPy
+  * <strong>Developer Tools:</strong> Git, Jupyter Notebook, Anaconda, LaTeX
+  * <strong>Data Visualation :</strong> Tableau, Power BI, Matplotlib, Seaborn
 
 <h2 style="margin-top: 50px;">🗂️ Projects</h2>
 
