@@ -32,8 +32,9 @@ title: "Soyeon Park"
 <h2 style="margin-top: 50px;">🛠️ Technical Skills</h2>
 
   * Programming Languages: Python, R, SQL
-  * Tools & Platforms: Git, Jupyter Notebook, Anaconda
-  * Data Visualation : Tableau, Microsoft Excel, Power BI
+  * ML Libraries: Scikit-learn, Pandas, NumPy
+  * Developer Tools: Git, Jupyter Notebook, Anaconda, LaTeX
+  * Data Visualation : Tableau, Power BI, Matplotlib, Seaborn
 
 <h2 style="margin-top: 50px;">🗂️ Projects</h2>
 
