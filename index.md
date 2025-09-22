@@ -5,9 +5,11 @@ title: "Soyeon Park"
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-##### Hi all 👋 I'm Soyeon Park, and I'm a graduate student at Northwestern University, pursuing a M.S. in Statistics and Data Science.
-##### Previously I was a Staff Engineer in Evaluation & Analysis Team at <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>, specializing in predictive modeling, automation, and machine learning applications in semiconductor manufacturing.
-##### Currently expanding my expertise in statistics and data science to bridge academic research with industry applications, I aim to design scalable models that enhance both efficiency and equity in technology-driven fields.
+##### Hi all 👋 I'm Soyeon Park, a Master’s student in Statistics at Northwestern University.
+##### Previously I was a Staff Engineer in Evaluation & Analysis Team at <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>, specializing in automation, and machine learning applications in semiconductor manufacturing.
+##### Currently expanding my expertise in statistics and data science with strong interest in robust modeling under limited data. My goal is to contribute to scalable, trustworthy models that address real-world challenges in technology and industry.
+
+
 
 
 
@@ -31,10 +33,9 @@ title: "Soyeon Park"
 
 <h2 style="margin-top: 50px;">🛠️ Technical Skills</h2>
 
-  * <strong>Programming Languages:</strong> Python, R, SQL
-  * <strong>ML Libraries:</strong> Scikit-learn, Pandas, NumPy
-  * <strong>Developer Tools:</strong> Git, Jupyter Notebook, Anaconda, LaTeX
-  * <strong>Data Visualation :</strong> Tableau, Power BI, Matplotlib, Seaborn
+  * <strong>Programming Languages:</strong> Python, R, SQL, Matlab
+  * <strong>Libraries:</strong> Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Scikit-learn, Matplotlib, Seaborn
+  * <strong>Developer & BI Tools:</strong> Git, Tableau, Power BI, LaTeX, Jira, Confluence
 
 <h2 style="margin-top: 50px;">🗂️ Projects</h2>
 
@@ -43,12 +44,12 @@ title: "Soyeon Park"
   [📄 Porfolio](https://drive.google.com/file/d/1KmusA-ub6aBX4SbU26ygYIqi_mJu-sla/view?usp=sharing)
 
   * **Prediction Through Transfer Learning for Process Monitoring**  
-  Enhancing SEM Analysis Efficiency in VNAND Manufacturing image [📄 Porfolio](https://drive.google.com/file/d/1zeXgj5EXhzVxGkskYnI1UVq5k8hUnUJV/view?usp=sharing)
+  Adaptive Predictive Modeling for Dynamic Process Monitoring [📄 Porfolio](https://drive.google.com/file/d/1zeXgj5EXhzVxGkskYnI1UVq5k8hUnUJV/view?usp=sharing)
 
     
   * **Automating Scanning Electron Microscopy (SEM) Analysis Process**  
-  Streamlining SEM Operations Through Workflow Optimization [📄 Porfolio](https://drive.google.com/file/d/1fidJKHXlybC9053DGx4vRlB05rHqxvgf/view?usp=sharing)
+  Automating an Image-Based Quality Assurance Workflow [📄 Porfolio](https://drive.google.com/file/d/1fidJKHXlybC9053DGx4vRlB05rHqxvgf/view?usp=sharing)
   
 
   * **Super Resolution (SR) Project**  
-  Applying Super-Resolution Technology in SEM (Scanning Electron Microscope) image [📄 Porfolio](https://drive.google.com/file/d/1kH3cLJKjr92LWjBC5U_eqvznFCjT-pgC/view?usp=sharing) 
+  Designing Computer Vision-based algorithm for Image Enhancement [📄 Porfolio](https://drive.google.com/file/d/1kH3cLJKjr92LWjBC5U_eqvznFCjT-pgC/view?usp=sharing) 
