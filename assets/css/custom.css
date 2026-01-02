@@ -24,6 +24,11 @@
   margin-top: 20px;
 }
 
+/* Each project card */
+.project-card {
+  border-radius: 14px;
+}
+
 /* Make images responsive and nice */
 .project-card img {
   width: 100%;
