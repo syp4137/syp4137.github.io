@@ -44,9 +44,15 @@
 }
 
 /* PC only: 2 columns */
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   .projects-grid {
     grid-template-columns: 1fr 1fr;
     gap: 36px 40px; /* row gap, column gap */
   }
+}
+
+.project-subtitle {
+  font-size: 0.9rem;     /* 기존보다 작게 */
+  line-height: 1.35;     /* 줄간격 압축 */
+  color: #555;
 }
