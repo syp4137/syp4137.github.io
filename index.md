@@ -39,54 +39,42 @@ title: "Soyeon Park"
 
 <h2 style="margin-top: 50px;">🗂️ Projects</h2>
 
-<div style="margin-bottom: 40px;">
-  <strong>Capacity and Demand Forecasting for Capital Planning</strong><br>
-  Using Statistical and Machine Learning Models to support budgeting and resource allocation
+<div class="projects-grid">
 
-  <br>
+  <div class="project-card">
+    <strong style="font-size: 1.05rem;">Capacity and Demand Forecasting for Capital Planning</strong><br>
+    <span style="color:#555;">Using statistical and machine learning models to support budgeting and resource allocation</span>
+    <br><br>
+    <a href="https://drive.google.com/file/d/1KmusA-ub6aBX4SbU26ygYIqi_mJu-sla/view?usp=sharing" target="_blank">
+      <img src="/assets/images/project_capacity.jpeg" alt="Capacity and Demand Forecasting">
+    </a>
+  </div>
 
-  <a href="https://drive.google.com/file/d/1KmusA-ub6aBX4SbU26ygYIqi_mJu-sla/view?usp=sharing" target="_blank" class="project-card">
-    <img src="/assets/images/project_capacity.jpeg"
-         alt="Capacity Forecasting Project"
-         style="width: 360px; margin-top: 10px; border-radius: 10px;">
-  </a>
-</div>
+  <div class="project-card">
+    <strong style="font-size: 1.05rem;">Transfer Learning Evaluation for Process Monitoring</strong><br>
+    <span style="color:#555;">Adaptive Predictive Modeling for Dynamic Process Monitoring</span>
+    <br><br>
+    <a href="https://drive.google.com/file/d/1zeXgj5EXhzVxGkskYnI1UVq5k8hUnUJV/view?usp=sharing" target="_blank" class="project-card">
+      <img src="/assets/images/project_transfer.jpeg" alt="Transfer Learning Project">
+    </a>
+  </div>
 
-<div style="margin-bottom: 40px;">
-  <strong>Transfer Learning Evaluation for Process Monitoring</strong><br>
-  Adaptive Predictive Modeling for Dynamic Process Monitoring
+  <div class="project-card">
+    <strong style="font-size: 1.05rem;">End-to-End Workflow Automation for Quality Analytics</strong><br>
+    <span style="color:#555;">ETL + feature scoring + dashboards to reduce manual work and downtime</span>
+    <br><br>
+    <a href="https://drive.google.com/file/d/1fidJKHXlybC9053DGx4vRlB05rHqxvgf/view?usp=sharing" target="_blank" class="project-card">
+      <img src="/assets/images/project_automation.jpeg" alt="Workflow Automation Project">
+    </a>
+  </div>
 
-  <br>
-
-  <a href="https://drive.google.com/file/d/1zeXgj5EXhzVxGkskYnI1UVq5k8hUnUJV/view?usp=sharing" target="_blank" class="project-card">
-    <img src="/assets/images/project_transfer.jpeg"
-         alt="Transfer Learning Project"
-         style="width: 360px; margin-top: 10px; border-radius: 10px;">
-  </a>
-</div>
-
-<div style="margin-bottom: 40px;">
-  <strong>End-to-End Workflow Automation for Quality Analytics</strong><br>
-  ETL + feature scoring + dashboards to reduce manual work and downtime
-
-  <br>
-
-  <a href="https://drive.google.com/file/d/1fidJKHXlybC9053DGx4vRlB05rHqxvgf/view?usp=sharing" target="_blank" class="project-card">
-    <img src="/assets/images/project_automation.jpeg"
-         alt="Workflow Automation Project"
-         style="width: 360px; margin-top: 10px; border-radius: 10px;">
-  </a>
-</div>
-
-<div style="margin-bottom: 40px;">
-  <strong>Super-Resolution Imaging to Increase Inspection Throughput</strong><br>
-  Computer vision pipeline to reduce capture time and avoid equipment spend
-
-  <br>
-
-  <a href="https://drive.google.com/file/d/1kH3cLJKjr92LWjBC5U_eqvznFCjT-pgC/view?usp=sharing" target="_blank" class="project-card">
-    <img src="/assets/images/project_sr.jpeg"
-         alt="Super Resolution Project"
-         style="width: 360px; margin-top: 10px; border-radius: 10px;">
-  </a>
+  <div class="project-card">
+    <strong style="font-size: 1.05rem;">Super-Resolution Imaging to Increase Inspection Throughput</strong><br>
+    <span style="color:#555;">Computer vision pipeline to reduce capture time and avoid equipment spend</span>
+    <br><br>
+    <a href="https://drive.google.com/file/d/1kH3cLJKjr92LWjBC5U_eqvznFCjT-pgC/view?usp=sharing" target="_blank" class="project-card">
+      <img src="/assets/images/project_sr.jpeg" alt="Super Resolution Project">
+    </a>
+  </div>
+  
 </div>

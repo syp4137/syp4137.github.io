@@ -16,11 +16,37 @@
     color: #1cbbc9 !important;
 }
 
+/* Projects grid: mobile 1-col, desktop 2-col */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;   /* mobile default */
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* Each project card */
+.project-card {
+  border-radius: 14px;
+}
+
+/* Make images responsive and nice */
 .project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transform: scale(1.015);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+}
+
+/* PC only: 2 columns */
+@media (min-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px 40px; /* row gap, column gap */
+  }
 }
