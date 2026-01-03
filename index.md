@@ -43,8 +43,7 @@ title: "Soyeon Park"
 
   <div class="project-card">
     <strong style="font-size: 1.05rem;">Capacity and Demand Forecasting for Capital Planning</strong><br>
-    <span class="project-subtitle">Using statistical and machine learning models to support budgeting and resource allocation</span>
-    <br><br>
+    <span class="project-subtitle">Using statistical and machine learning models to support budgeting and resource allocation</span><br>
     <img src="/assets/images/project_capacity.png"
     alt="Capacity Forecasting"
     class="project-image"
@@ -54,8 +53,7 @@ title: "Soyeon Park"
 
   <div class="project-card">
     <strong style="font-size: 1.05rem;">Transfer Learning Evaluation for Process Monitoring</strong><br>
-    <span class="project-subtitle">Adaptive Predictive Modeling for Dynamic Process Monitoring</span>
-    <br><br>
+    <span class="project-subtitle">Adaptive Predictive Modeling for Dynamic Process Monitoring</span><br>
     <img src="/assets/images/project_transfer.png"
     alt="Transfer Learning Project"
     class="project-image"
@@ -65,8 +63,7 @@ title: "Soyeon Park"
 
   <div class="project-card">
     <strong style="font-size: 1.05rem;">End-to-End Workflow Automation for Quality Analytics</strong><br>
-    <span class="project-subtitle">ETL + feature scoring + dashboards to reduce manual work and downtime</span>
-    <br><br>
+    <span class="project-subtitle">ETL + feature scoring + dashboards to reduce manual work and downtime</span><br>
     <img src="/assets/images/project_automation.png"
     alt="Workflow Automation Project"
     class="project-image"
@@ -76,8 +73,7 @@ title: "Soyeon Park"
 
   <div class="project-card">
     <strong style="font-size: 1.05rem;">Super-Resolution Imaging to Increase Inspection Throughput</strong><br>
-    <span class="project-subtitle">Computer vision pipeline to reduce capture time and avoid equipment spend</span>
-    <br><br>
+    <span class="project-subtitle">Computer vision pipeline to reduce capture time and avoid equipment spend</span><br>
     <img src="/assets/images/project_sr.png"
     alt="Super Resolution Project"
     class="project-image"
@@ -87,48 +83,128 @@ title: "Soyeon Park"
 </div>
 
 <div id="lightbox" onclick="closeLightbox()">
-  <img id="lightbox-img" alt="">
+  <div id="lightbox-inner" onclick="event.stopPropagation()">
+    <img id="lightbox-img" alt="Expanded image">
+  </div>
 </div>
+
 
 
 <script>
 let zoom = 1;
+let tx = 0, ty = 0;                 // translate (pan)
 const ZOOM_MIN = 1;
 const ZOOM_MAX = 4;
 const ZOOM_STEP = 0.12;
 
-function openLightbox(img) {
+let isDragging = false;
+let startX = 0, startY = 0;
+let startTx = 0, startTy = 0;
+
+function applyTransform() {
+  const img = document.getElementById("lightbox-img");
+  img.style.transform = `translate(${tx}px, ${ty}px) scale(${zoom})`;
+}
+
+function resetTransform() {
+  zoom = 1;
+  tx = 0; ty = 0;
+  applyTransform();
+}
+
+function openLightbox(imgEl) {
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
 
-  lightboxImg.src = img.src;
-  zoom = 1;
-  lightboxImg.style.transform = `scale(${zoom})`;
+  lightboxImg.src = imgEl.src;
+  resetTransform();
 
   lightbox.style.display = "flex";
-  document.body.style.overflow = "hidden"; // 배경 스크롤 방지
+  document.body.style.overflow = "hidden";
 }
-
-document.addEventListener("keydown", e => {
-  if (e.key === "Escape") closeLightbox();
-});
 
 function closeLightbox() {
   document.getElementById("lightbox").style.display = "none";
-  document.body.style.overflow = ""; // 원복
+  document.body.style.overflow = "";
 }
 
+function clampPan() {
+  // 너무 멀리 드래그해서 이미지가 완전히 사라지지 않게 "대충" 제한
+  // (정교한 경계 계산은 이미지/컨테이너 실제 크기 측정이 필요하지만,
+  //  이 정도로도 UX가 좋아요.)
+  const maxPan = 800 * (zoom - 1);  // zoom이 클수록 더 많이 이동 허용
+  const limit = Math.max(0, maxPan);
+
+  tx = Math.max(-limit, Math.min(limit, tx));
+  ty = Math.max(-limit, Math.min(limit, ty));
+}
+
+// 휠 줌
 document.getElementById("lightbox").addEventListener("wheel", (e) => {
-  // 휠로 확대/축소, 페이지 스크롤 막기
+  const lightbox = document.getElementById("lightbox");
+  if (lightbox.style.display !== "flex") return;
+
   e.preventDefault();
 
-  const img = document.getElementById("lightbox-img");
   const delta = Math.sign(e.deltaY);
+  const prevZoom = zoom;
 
-  // deltaY > 0 : 아래로 스크롤(축소), deltaY < 0 : 확대
   zoom = zoom * (delta > 0 ? (1 - ZOOM_STEP) : (1 + ZOOM_STEP));
   zoom = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, zoom));
 
-  img.style.transform = `scale(${zoom})`;
+  // zoom이 1로 돌아오면 pan도 리셋하면 깔끔
+  if (zoom === 1) { tx = 0; ty = 0; }
+
+  // 너무 과한 pan 방지
+  if (zoom !== prevZoom) clampPan();
+  applyTransform();
 }, { passive: false });
+
+// 드래그 시작/이동/끝 (Pointer Events: 마우스/트랙패드 모두)
+const inner = document.getElementById("lightbox-inner");
+
+inner.addEventListener("pointerdown", (e) => {
+  const lightbox = document.getElementById("lightbox");
+  if (lightbox.style.display !== "flex") return;
+
+  // zoom=1일 때는 굳이 드래그 이동하지 않게 해도 됨(원하면 제거 가능)
+  if (zoom === 1) return;
+
+  isDragging = true;
+  inner.classList.add("dragging");
+  inner.setPointerCapture(e.pointerId);
+
+  startX = e.clientX;
+  startY = e.clientY;
+  startTx = tx;
+  startTy = ty;
+});
+
+inner.addEventListener("pointermove", (e) => {
+  if (!isDragging) return;
+
+  const dx = e.clientX - startX;
+  const dy = e.clientY - startY;
+
+  tx = startTx + dx;
+  ty = startTy + dy;
+
+  clampPan();
+  applyTransform();
+});
+
+inner.addEventListener("pointerup", () => {
+  isDragging = false;
+  inner.classList.remove("dragging");
+});
+
+inner.addEventListener("pointercancel", () => {
+  isDragging = false;
+  inner.classList.remove("dragging");
+});
+
+// ESC로 닫기
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeLightbox();
+});
 </script>
