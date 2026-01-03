@@ -5,9 +5,7 @@ title: "Soyeon Park"
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-##### Hi all 👋 I'm Soyeon Park, a Master’s student in Statistics at Northwestern University.
-##### Previously I was a Staff Engineer in Evaluation & Analysis Team at <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>, specializing in data analysis, automation, and machine learning applications in semiconductor manufacturing.
-##### Currently expanding my expertise in statistics and data science with strong interest in robust modeling under limited data. My goal is to contribute to scalable, trustworthy models that address real-world challenges in technology and industry.
+##### Hi all 👋 I'm Soyeon Park, a Master’s student in Statistics at Northwestern University.<br> Previously I was a Staff Engineer in Evaluation & Analysis Team at <span class="blue-text"><a href="https://semiconductor.samsung.com/">Samsung Electronics</a></span>, specializing in data analysis, automation, and machine learning applications in semiconductor manufacturing.<br>Currently expanding my expertise in statistics and data science with strong interest in robust modeling under limited data. My goal is to contribute to scalable, trustworthy models that address real-world challenges in technology and industry.
 
 
 
