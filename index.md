@@ -87,22 +87,21 @@ title: "Soyeon Park"
 </div>
 
 <div id="lightbox" onclick="closeLightbox()">
-  <img id="lightbox-img">
+  <img id="lightbox-img" alt="">
 </div>
 
 <script>
 function openLightbox(img) {
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
-
   lightboxImg.src = img.src;
   lightbox.style.display = "flex";
 }
-
 function closeLightbox() {
   document.getElementById("lightbox").style.display = "none";
 }
 </script>
+
 
 <script>
 document.addEventListener("keydown", e => {
