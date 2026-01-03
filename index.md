@@ -13,7 +13,7 @@ title: "Soyeon Park"
 
 <h2 style="margin-top: 50px;">🎓 Education</h2>
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
-  <img src="/assets/images/nu_logo.png" alt="NU Logo" width="60px">
+  <img src="/assets/images/nu_logo.png" alt="NU Logo" width="50px"> 
   <div>
     <p style="margin: 0;"><strong>Northwestern University,</strong> Evanston, IL</p>
     <p style="margin: 0;">M.S. in Statistics and Data Science (2025 – Present)</p>
@@ -21,7 +21,7 @@ title: "Soyeon Park"
 </div>
 
 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
-  <img src="/assets/images/hu_logo.png" alt="HU Logo" width="60px">
+  <img src="/assets/images/hu_logo.png" alt="HU Logo" width="50px">
   <div>
     <p style="margin: 0;"><strong>Hanyang University,</strong> Seoul, Republic of Korea</p>
     <p style="margin: 0;">B.S. in Nano and Organic Engineering (2012 – 2016)</p>
@@ -210,5 +210,29 @@ inner.addEventListener("pointercancel", endDrag);
 // ESC close
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeLightbox();
+});
+
+let lastTapTime = 0;
+
+document.getElementById("lightbox-inner").addEventListener("pointerup", (e) => {
+  const lightbox = document.getElementById("lightbox");
+  if (lightbox.style.display !== "flex") return;
+
+  // 모바일 더블탭 판정(빠르게 두 번 터치)
+  const now = Date.now();
+  if (now - lastTapTime < 300) {
+    // 1x <-> 2x 토글
+    if (zoom === 1) {
+      zoom = 2;
+    } else {
+      zoom = 1;
+      tx = 0; ty = 0;
+    }
+    clampPan();
+    applyTransformRaf();
+    lastTapTime = 0;
+    return;
+  }
+  lastTapTime = now;
 });
 </script>
