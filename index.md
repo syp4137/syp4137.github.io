@@ -45,7 +45,7 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">Capacity and Demand Forecasting for Capital Planning</strong><br>
     <span class="project-subtitle">Using statistical and machine learning models to support budgeting and resource allocation</span>
     <br><br>
-    <img src="/assets/images/project_capacity.jpeg"
+    <img src="/assets/images/project_capacity.png"
     alt="Capacity Forecasting"
     class="project-image"
     onclick="openLightbox(this)">
@@ -56,7 +56,7 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">Transfer Learning Evaluation for Process Monitoring</strong><br>
     <span class="project-subtitle">Adaptive Predictive Modeling for Dynamic Process Monitoring</span>
     <br><br>
-    <img src="/assets/images/project_transfer.jpeg"
+    <img src="/assets/images/project_transfer.png"
     alt="Transfer Learning Project"
     class="project-image"
     onclick="openLightbox(this)">
@@ -67,7 +67,7 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">End-to-End Workflow Automation for Quality Analytics</strong><br>
     <span class="project-subtitle">ETL + feature scoring + dashboards to reduce manual work and downtime</span>
     <br><br>
-    <img src="/assets/images/project_automation.jpeg"
+    <img src="/assets/images/project_automation.png"
     alt="Workflow Automation Project"
     class="project-image"
     onclick="openLightbox(this)">
@@ -78,7 +78,7 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">Super-Resolution Imaging to Increase Inspection Throughput</strong><br>
     <span class="project-subtitle">Computer vision pipeline to reduce capture time and avoid equipment spend</span>
     <br><br>
-    <img src="/assets/images/project_sr.jpeg"
+    <img src="/assets/images/project_sr.png"
     alt="Super Resolution Project"
     class="project-image"
     onclick="openLightbox(this)">
@@ -90,21 +90,45 @@ title: "Soyeon Park"
   <img id="lightbox-img" alt="">
 </div>
 
+
 <script>
+let zoom = 1;
+const ZOOM_MIN = 1;
+const ZOOM_MAX = 4;
+const ZOOM_STEP = 0.12;
+
 function openLightbox(img) {
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
+
   lightboxImg.src = img.src;
+  zoom = 1;
+  lightboxImg.style.transform = `scale(${zoom})`;
+
   lightbox.style.display = "flex";
+  document.body.style.overflow = "hidden"; // 배경 스크롤 방지
 }
-function closeLightbox() {
-  document.getElementById("lightbox").style.display = "none";
-}
-</script>
 
-
-<script>
 document.addEventListener("keydown", e => {
   if (e.key === "Escape") closeLightbox();
 });
+
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
+  document.body.style.overflow = ""; // 원복
+}
+
+document.getElementById("lightbox").addEventListener("wheel", (e) => {
+  // 휠로 확대/축소, 페이지 스크롤 막기
+  e.preventDefault();
+
+  const img = document.getElementById("lightbox-img");
+  const delta = Math.sign(e.deltaY);
+
+  // deltaY > 0 : 아래로 스크롤(축소), deltaY < 0 : 확대
+  zoom = zoom * (delta > 0 ? (1 - ZOOM_STEP) : (1 + ZOOM_STEP));
+  zoom = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, zoom));
+
+  img.style.transform = `scale(${zoom})`;
+}, { passive: false });
 </script>
