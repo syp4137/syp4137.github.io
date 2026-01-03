@@ -31,7 +31,7 @@ title: "Soyeon Park"
 
 <h2 style="margin-top: 50px;">🛠️ Technical Skills</h2>
 
-  * <strong>Programming Languages:</strong> Python, R, SQL, Matlab
+  * <strong>Programming Languages:</strong> Python, R, SQL
   * <strong>Libraries:</strong> NumPy, Pandas, SciPy, Spark, scikit-learn, TensorFlow, PyTorch, Keras, matplotlib, Seaborn
   * <strong>Developer & BI Tools:</strong> Git, Tableau, Power BI, Docker, Excel (VBA), LaTeX, Jira, Confluence
 
