@@ -27,6 +27,9 @@
 /* Each project card */
 .project-card {
   border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
 }
 
 /* Make images responsive and nice */
@@ -59,7 +62,31 @@
   margin-bottom: 3px;   /* ← 여기로 간격 제어 */
 }
 
-.project-card {
-  display: flex;
-  flex-direction: column;
+/* Lightbox background */
+#lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Enlarged image */
+#lightbox-img {
+  max-width: 92%;
+  max-height: 92%;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+
+/* Cursor hint */
+.project-image {
+  cursor: zoom-in;
 }
