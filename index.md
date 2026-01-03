@@ -45,12 +45,10 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">Capacity and Demand Forecasting for Capital Planning</strong><br>
     <span class="project-subtitle">Using statistical and machine learning models to support budgeting and resource allocation</span>
     <br><br>
-    <a href="https://drive.google.com/file/d/1KmusA-ub6aBX4SbU26ygYIqi_mJu-sla/view?usp=sharing" target="_blank">
-      <img src="/assets/images/project_capacity.jpeg"
-     alt="Capacity Forecasting"
-     class="project-image"
-     onclick="openLightbox(this)">
-    </a>
+    <img src="/assets/images/project_capacity.jpeg"
+    alt="Capacity Forecasting"
+    class="project-image"
+    onclick="openLightbox(this)">
   </div>
 
 
@@ -58,12 +56,10 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">Transfer Learning Evaluation for Process Monitoring</strong><br>
     <span class="project-subtitle">Adaptive Predictive Modeling for Dynamic Process Monitoring</span>
     <br><br>
-    <a href="https://drive.google.com/file/d/1zeXgj5EXhzVxGkskYnI1UVq5k8hUnUJV/view?usp=sharing" target="_blank" class="project-card">
-      <img src="/assets/images/project_transfer.jpeg"
-     alt="Transfer Learning Project"
-     class="project-image"
-     onclick="openLightbox(this)">
-    </a>
+    <img src="/assets/images/project_transfer.jpeg"
+    alt="Transfer Learning Project"
+    class="project-image"
+    onclick="openLightbox(this)">
   </div>
 
 
@@ -71,12 +67,10 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">End-to-End Workflow Automation for Quality Analytics</strong><br>
     <span class="project-subtitle">ETL + feature scoring + dashboards to reduce manual work and downtime</span>
     <br><br>
-    <a href="https://drive.google.com/file/d/1fidJKHXlybC9053DGx4vRlB05rHqxvgf/view?usp=sharing" target="_blank" class="project-card">
-      <img src="/assets/images/project_automation.jpeg"
-     alt="Workflow Automation Project"
-     class="project-image"
-     onclick="openLightbox(this)">
-    </a>
+    <img src="/assets/images/project_automation.jpeg"
+    alt="Workflow Automation Project"
+    class="project-image"
+    onclick="openLightbox(this)">
   </div>
 
 
@@ -84,12 +78,10 @@ title: "Soyeon Park"
     <strong style="font-size: 1.05rem;">Super-Resolution Imaging to Increase Inspection Throughput</strong><br>
     <span class="project-subtitle">Computer vision pipeline to reduce capture time and avoid equipment spend</span>
     <br><br>
-    <a href="https://drive.google.com/file/d/1kH3cLJKjr92LWjBC5U_eqvznFCjT-pgC/view?usp=sharing" target="_blank" class="project-card">
-      <img src="/assets/images/project_sr.jpeg"
-     alt="Super Resolution Project"
-     class="project-image"
-     onclick="openLightbox(this)">
-    </a>
+    <img src="/assets/images/project_sr.jpeg"
+    alt="Super Resolution Project"
+    class="project-image"
+    onclick="openLightbox(this)">
   </div>
 
 </div>
