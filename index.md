@@ -90,7 +90,8 @@ title: "Soyeon Park"
 
 <script>
 let zoom = 1;
-let tx = 0, ty = 0;                 // translate (pan)
+let tx = 0, ty = 0;
+
 const ZOOM_MIN = 1;
 const ZOOM_MAX = 4;
 const ZOOM_STEP = 0.12;
@@ -99,15 +100,23 @@ let isDragging = false;
 let startX = 0, startY = 0;
 let startTx = 0, startTy = 0;
 
-function applyTransform() {
-  const img = document.getElementById("lightbox-img");
-  img.style.transform = `translate(${tx}px, ${ty}px) scale(${zoom})`;
+let rafPending = false;
+
+function applyTransformRaf() {
+  if (rafPending) return;
+  rafPending = true;
+
+  requestAnimationFrame(() => {
+    const img = document.getElementById("lightbox-img");
+    img.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${zoom})`;
+    rafPending = false;
+  });
 }
 
 function resetTransform() {
   zoom = 1;
   tx = 0; ty = 0;
-  applyTransform();
+  applyTransformRaf();
 }
 
 function openLightbox(imgEl) {
@@ -115,8 +124,14 @@ function openLightbox(imgEl) {
   const lightboxImg = document.getElementById("lightbox-img");
 
   lightboxImg.src = imgEl.src;
-  resetTransform();
 
+  // fit 강제(이미 하셨으면 유지)
+  lightboxImg.style.maxWidth = "95vw";
+  lightboxImg.style.maxHeight = "95vh";
+  lightboxImg.style.width = "auto";
+  lightboxImg.style.height = "auto";
+
+  resetTransform();
   lightbox.style.display = "flex";
   document.body.style.overflow = "hidden";
 }
@@ -126,18 +141,14 @@ function closeLightbox() {
   document.body.style.overflow = "";
 }
 
+/* pan 제한(너무 과도한 튐 방지) */
 function clampPan() {
-  // 너무 멀리 드래그해서 이미지가 완전히 사라지지 않게 "대충" 제한
-  // (정교한 경계 계산은 이미지/컨테이너 실제 크기 측정이 필요하지만,
-  //  이 정도로도 UX가 좋아요.)
-  const maxPan = 800 * (zoom - 1);  // zoom이 클수록 더 많이 이동 허용
-  const limit = Math.max(0, maxPan);
-
+  const limit = Math.max(0, 700 * (zoom - 1));  // 부드럽고 안전한 값
   tx = Math.max(-limit, Math.min(limit, tx));
   ty = Math.max(-limit, Math.min(limit, ty));
 }
 
-// 휠 줌
+// Wheel zoom
 document.getElementById("lightbox").addEventListener("wheel", (e) => {
   const lightbox = document.getElementById("lightbox");
   if (lightbox.style.display !== "flex") return;
@@ -145,31 +156,28 @@ document.getElementById("lightbox").addEventListener("wheel", (e) => {
   e.preventDefault();
 
   const delta = Math.sign(e.deltaY);
-  const prevZoom = zoom;
-
   zoom = zoom * (delta > 0 ? (1 - ZOOM_STEP) : (1 + ZOOM_STEP));
   zoom = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, zoom));
 
-  // zoom이 1로 돌아오면 pan도 리셋하면 깔끔
   if (zoom === 1) { tx = 0; ty = 0; }
-
-  // 너무 과한 pan 방지
-  if (zoom !== prevZoom) clampPan();
-  applyTransform();
+  clampPan();
+  applyTransformRaf();
 }, { passive: false });
 
-// 드래그 시작/이동/끝 (Pointer Events: 마우스/트랙패드 모두)
+// Drag pan (Pointer Events)
 const inner = document.getElementById("lightbox-inner");
 
 inner.addEventListener("pointerdown", (e) => {
   const lightbox = document.getElementById("lightbox");
   if (lightbox.style.display !== "flex") return;
-
-  // zoom=1일 때는 굳이 드래그 이동하지 않게 해도 됨(원하면 제거 가능)
   if (zoom === 1) return;
 
   isDragging = true;
   inner.classList.add("dragging");
+
+  // 기본 동작/스크롤 충돌 방지
+  e.preventDefault();
+
   inner.setPointerCapture(e.pointerId);
 
   startX = e.clientX;
@@ -188,20 +196,18 @@ inner.addEventListener("pointermove", (e) => {
   ty = startTy + dy;
 
   clampPan();
-  applyTransform();
+  applyTransformRaf();
 });
 
-inner.addEventListener("pointerup", () => {
+function endDrag() {
   isDragging = false;
   inner.classList.remove("dragging");
-});
+}
 
-inner.addEventListener("pointercancel", () => {
-  isDragging = false;
-  inner.classList.remove("dragging");
-});
+inner.addEventListener("pointerup", endDrag);
+inner.addEventListener("pointercancel", endDrag);
 
-// ESC로 닫기
+// ESC close
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeLightbox();
 });
